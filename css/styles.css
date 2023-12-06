@@ -48,6 +48,10 @@ body{
     background-color: black;
 }
 
+.toggledbody{
+    background-color: White;
+}
+
 h1, p{
     color:white;
     
@@ -88,7 +92,7 @@ img{
 }
 
 h1{
-    background-color: pink;
+    
     width:120px;
     margin:10px 10px 10px 10px;
 }
@@ -107,5 +111,9 @@ h1{
     justify-content: center;
     text-align:center;
     gap:30px;
+}
+
+.toggledh1{
+color:yellow;
 }
 

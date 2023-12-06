@@ -7,6 +7,11 @@ const toggle=document.querySelector(".button-circle")
 //Imprimo en consola para confirmar de estar en el sitio correcto
 console.log(toggle);
 
+//Capturo el id h1 es un h1 en html
+const h1=document.getElementById("h1")
+//Capturo el id body es el body en html
+const body=document.getElementById("body")
+
 //Creo un evento, al hacer click cambiará caolor con la función cambiarColor que definiré a continuación
 toggle.addEventListener("click",cambiarColor);
 
@@ -20,6 +25,10 @@ function cambiarColor(){
     //o con la función toggle de Js
 toggle.classList.toggle("cambiarBotón");
 toggle.classList.toggle("button-circle");
+//esto me permitirá cambiar el color de la escrita de h1
+h1.classList.toggle("toggledh1");
+//esto me permitirá cambiar el color del body al darle al botón
+body.classList.toggle("toggledbody");
 
 
 };
