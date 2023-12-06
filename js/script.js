@@ -12,6 +12,8 @@ const h1=document.getElementById("h1")
 //Capturo el id body es el body en html
 const body=document.getElementById("body")
 
+const toggledp=document.querySelector(".flex-p");
+
 //Creo un evento, al hacer click cambiará caolor con la función cambiarColor que definiré a continuación
 toggle.addEventListener("click",cambiarColor);
 
@@ -29,7 +31,7 @@ toggle.classList.toggle("button-circle");
 h1.classList.toggle("toggledh1");
 //esto me permitirá cambiar el color del body al darle al botón
 body.classList.toggle("toggledbody");
-
+toggledp.classList.toggle("toggledp");
 
 };
     

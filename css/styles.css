@@ -53,9 +53,21 @@ body{
 }
 
 h1, p{
-    color:white;
-    
+    color:yellow;    
 }
+
+h1{    
+    width:120px;
+    margin:10px 10px 10px 10px;
+}
+
+.toggledh1 {
+    color:black;
+    }
+
+.toggledp p{
+        color:black;
+        }
 
 img{
     /* 100% of viewport view*/
@@ -71,7 +83,7 @@ img{
 }
 
 .button-circle{
-    background-color:purple;
+    background-color:white;
     width:30px;
     height: 30px;
     border-radius: 50%;
@@ -79,7 +91,7 @@ img{
 
  /* toggle button*/
 .cambiarBotón{
-    background-color:pink;
+    background-color:black;
     width:30px;
     height: 30px;
     border-radius: 50%;
@@ -91,11 +103,7 @@ img{
     justify-content:space-between;
 }
 
-h1{
-    
-    width:120px;
-    margin:10px 10px 10px 10px;
-}
+
 
 .center{
     display:flex;
@@ -113,7 +121,5 @@ h1{
     gap:30px;
 }
 
-.toggledh1{
-color:yellow;
-}
+
 
