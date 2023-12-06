@@ -1,5 +1,5 @@
 html, body, div, span, applet, object, iframe,
-h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+ h2, h3, h4, h5, h6, p, blockquote, pre,
 a, abbr, acronym, address, big, cite, code,
 del, dfn, em, img, ins, kbd, q, s, samp,
 small, strike, strong, sub, sup, tt, var,
@@ -42,14 +42,45 @@ table {
 	border-spacing: 0;
 }
 
+/* My code from here */
+
 body{
     background-color: black;
 }
 
-h1{
+h1, p{
     color:white;
+    
 }
 
 img{
+    /* 100% of viewport view*/
     width: 100vw; ;
+}
+
+.button{
+    background-color:green;
+    width:100px;
+    height: 30px;
+    margin:10px 10px 10px 10px;
+    border-radius: 35%;
+}
+
+.button-circle{
+    background-color:purple;
+    width:30px;
+    height: 30px;
+    border-radius: 50%;
+}
+
+.container{
+    display: flex;
+    gap:10px;
+    justify-content:space-between;
+}
+
+h1{
+    background-color: pink;
+    width:120px;
+    margin:10px 10px 10px 10px;
 }
