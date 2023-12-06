@@ -55,7 +55,7 @@ h1, p{
 
 img{
     /* 100% of viewport view*/
-    width: 100vw; ;
+    width: 80vw; ;
 }
 
 .button{
@@ -73,6 +73,14 @@ img{
     border-radius: 50%;
 }
 
+ /* toggle button*/
+.cambiarBotón{
+    background-color:pink;
+    width:30px;
+    height: 30px;
+    border-radius: 50%;
+}
+
 .container{
     display: flex;
     gap:10px;
@@ -84,3 +92,20 @@ h1{
     width:120px;
     margin:10px 10px 10px 10px;
 }
+
+.center{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    height: 850px;
+}
+
+.flex-p{
+    display:flex;
+    margin:50px 50px 50px 50px ;
+    flex-wrap: wrap;
+    justify-content: center;
+    text-align:center;
+    gap:30px;
+}
+
